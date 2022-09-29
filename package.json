@@ -2,12 +2,15 @@
   "name": "monarch-storybook-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ab-okelawal-pp.github.io/monarch-storybook-test",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "predeploy": "npm run build-storybook",
     "storybook": "start-storybook -p 6006",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -28,6 +31,7 @@
     "babel-loader": "^8.2.5",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
-    "eslint-plugin-storybook": "^0.6.4"
+    "eslint-plugin-storybook": "^0.6.4",
+    "gh-pages": "^4.0.0"
   }
 }
