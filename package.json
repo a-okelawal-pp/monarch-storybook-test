@@ -2,7 +2,7 @@
   "name": "monarch-storybook-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ab-okelawal-pp.github.io/monarch-storybook-test",
+  "homepage": "http://a-okelawal-pp.github.io/monarch-storybook-test",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
